@@ -1,0 +1,14 @@
+.angular{
+  border-style: solid;
+  border-color: #99050a;
+  padding: 30px;
+}
+
+.vue{
+  border-style: solid;
+  border-color: #13521F;
+}
+
+mat-form-field{
+  display: inline;
+}
