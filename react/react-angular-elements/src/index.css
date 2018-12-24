@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.react{
+  border-style: solid;
+  border-color: #50c5d7;
+  padding: 30px;
+}
+
+.vue{
+  border-style: solid;
+  border-color: #13521F;
+}
