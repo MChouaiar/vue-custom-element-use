@@ -52,7 +52,7 @@ class DemoElement extends PolymerElement {
             },
             message:{
               type: String,
-              value: "hello bastard",
+              value: "Hello from Polymer component",
               notify: true,
               readOnly: false
             }
