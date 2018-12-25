@@ -26,7 +26,7 @@ class DemoElement extends PolymerElement {
             <img width="300" alt="Javascript Logo" src="img/polymer-2.svg">
         </div>
       <div class="vue">
-          <my-custom-element message$="{{message}}" number$="{{count}}" on-counter-update="handleCounterChange"></my-custom-element>
+          <my-custom-element message$="[[message]]" number$="[[count]]" on-counter-update="handleCounterChange"></my-custom-element>
       </div>
           
          <paper-input label="Polymer paper-input" value="{{message::change}}">
